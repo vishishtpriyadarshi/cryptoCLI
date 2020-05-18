@@ -11,15 +11,16 @@ npm link
 As of now, CLI tool is able to execute following commands:
 ```
 Options:
-	-V, --version						Displays the version number
-	-h, --help						Displays help for commands
+	-V, --version						Display the version number
+	-h, --help						Display help for the commands
 	
 Commands:
-	key [commands]						Manage API Key
+	key [command]						Manage API Key
 	key set							Set API Key
-	key show						Displays API Key
-	key remove						Removes API Key
-	key check --coin=[coin_name] --curr=[currency_type]	Check price of specified coin in cpecified currency
+	key show						Display API Key
+	key remove						Remove API Key
+	key check --coin=[coin_name] --curr=[currency_type]	Check price of specified coin in specified currency
+	help [command]						Display help for specified command
 ```
 	
 #### LICENSE
