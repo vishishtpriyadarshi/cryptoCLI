@@ -7,27 +7,20 @@ npm install
 npm link
 ```
 
-### Commands - 
-##### 1. Version :  
-	> cryptocli -V
-
-##### 2. Help :
-	> cryptocli -h
+### Usage - 
+As of now, CLI tool is able to execute following commands:
+```
+Options:
+	-V, --version						Displays the version number
+	-h, --help						Displays help for commands
 	
-##### 3. Manage API Key :
-	> cryptocli key
-	
-#####	i) Set API Key :
-	> cryptocli key set
-	
-#####	ii) Show API Key :
-	> cryptocli key show
-	
-#####	iii) Remove API key :
-	> cryptocli key remove
-	
-##### 4. Check Price :
-	> cryptocli key check --coin=BTC --curr=INR
+Commands:
+	key [commands]						Manage API Key
+	key set							Set API Key
+	key show						Displays API Key
+	key remove						Removes API Key
+	key check --coin=[coin_name] --curr=[currency_type]	Check price of specified coin in cpecified currency
+```
 	
 #### LICENSE
 MIT
